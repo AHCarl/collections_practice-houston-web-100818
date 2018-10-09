@@ -1,5 +1,5 @@
 def sort_array_asc(arr)
-  lowest = 100000000
+  min = arr.min
   array = []
   arr.each do |i, v|
     if
