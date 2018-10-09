@@ -4,5 +4,6 @@ def sort_array_asc(arr)
   array = []
   while count < arr.length do |a|
     if a < lowest {a = lowest}
+      array << lowest
     end
 end 
